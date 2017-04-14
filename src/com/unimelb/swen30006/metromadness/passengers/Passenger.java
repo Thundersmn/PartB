@@ -9,10 +9,10 @@ public class Passenger {
 
 	final public int id;
 	public Station beginning;
-	private Station destination;
-	private float travelTime;
-	private boolean reachedDestination;
-	private Cargo cargo;
+	public Station destination;
+	public float travelTime;
+	public boolean reachedDestination;
+	public Cargo cargo;
 	
 	public Passenger(int id, Random random, Station start, Station end){
 		this.id = id;
