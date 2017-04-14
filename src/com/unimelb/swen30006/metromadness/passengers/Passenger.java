@@ -8,7 +8,7 @@ import com.unimelb.swen30006.metromadness.stations.Station;
 public class Passenger {
 
 	final public int id;
-	private Station beginning;
+	public Station beginning;
 	private Station destination;
 	private float travelTime;
 	private boolean reachedDestination;
